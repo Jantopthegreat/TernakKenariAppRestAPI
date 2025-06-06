@@ -6,7 +6,7 @@ class AnakRequestModel {
   final String jenisKelamin;
   final String jenisKenari;
   final String keterangan;
-  final String? gambarBurung; // nullable
+  final String? gambarBurung;
   final int ayahId;
   final int ibuId;
 
@@ -16,7 +16,7 @@ class AnakRequestModel {
     required this.jenisKelamin,
     required this.jenisKenari,
     required this.keterangan,
-    this.gambarBurung, // nullable constructor param
+    this.gambarBurung,
     required this.ayahId,
     required this.ibuId,
   });
